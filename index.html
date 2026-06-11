@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazenda Feliz - Mini Jogo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <div class="stat"><span class="stat-icon">💰</span> Moedas: <span id="coin-count">60</span></div>
+        <div class="stat"><span class="stat-icon">🌾</span> Nível: <span id="farm-level">1</span></div>
+        <div class="stat"><span class="stat-icon">📈</span> XP: <span id="xp-count">0</span>/100</div>
+    </header>
+
+    <div class="game-container">
+        <div class="shop-panel">
+            <h2>Loja de Sementes</h2>
+            <div id="shop-items">
+                </div>
+            <div class="shop-footer">
+                Escolha um vegetal e clique na terra arada!
+            </div>
+        </div>
+
+        <div class="farm-plot-area">
+            <div class="grid" id="farm-grid">
+                </div>
+        </div>
+    </div>
+
+    <div class="instructions">
+        <strong>Como Jogar:</strong> 1. Selecione um vegetal na Loja. 2. Clique em um lote de terra vazio para plantar. 3. Espere crescer e clique novamente para colher e ganhar moedas e XP! 4. Junte moedas para liberar novos lotes!
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
